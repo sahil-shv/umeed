@@ -1,0 +1,10 @@
+{
+  "students": [
+    { "id": "s-1", "name": "Sahil", "progress": 50, "notes": [], "quizzes": [] }
+  ],
+  "teachers": [
+    { "id": "t-1", "name": "Radha", "remarks": [] }
+  ],
+  "uploads": [],
+  "queue_items": []
+}

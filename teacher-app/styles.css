@@ -1,0 +1,18 @@
+:root{
+  --yellow:#ffd54a;
+  --accent:#ffb300;
+  --bg:#fffdf7;
+  --muted:#666;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:#111}
+.container{padding:14px;max-width:720px;margin:0 auto}
+.topbar{display:flex;align-items:center;gap:10px}
+.logo{width:40px;height:40px;border-radius:8px}
+.app-title{font-size:18px;margin:0}
+.view-card{background:#fff;border-radius:12px;padding:12px;margin-top:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.input{width:100%;padding:10px;border-radius:8px;border:1px solid #eee;margin-bottom:10px}
+.btn{display:inline-block;padding:10px 12px;border-radius:10px;border:0;background:var(--accent);color:#111;font-weight:700}
+.small{font-size:13px;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:8px}
+.list-item{padding:8px;border-radius:8px;border:1px dashed #f5e0a0;background:rgba(255,255,255,0.6)}
